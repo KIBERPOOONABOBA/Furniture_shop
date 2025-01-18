@@ -81,3 +81,45 @@ body{
    font-size: 20px;
    background-color: #1C1919;
 }
+.cart-heading{
+   margin:0;
+   color: white;
+}
+.cart-items{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+.cart-items-middle{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+.cart-item{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border: 1px solid white;
+   padding: 10px;
+   color: white;
+}
+
+.cart-item-left{
+display: flex;
+gap: 20px;
+align-items: center;
+}
+.cart-item img{
+   width: 100px;
+   height: 100px;
+   object-fit: contain;
+}
+.cart-item h2{
+   font-size: 20px;
+}
+.cart-item p{
+   font-size: 23px;
+}
+.cart-item span{
+   font-size: 23px;
+}
