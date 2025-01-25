@@ -16,7 +16,25 @@ let products = [
       "price": 35786,
       "image": "https://img.mebelok.com/image/cache/data/Askalon/12024011-800x600.jpg.webp",
       "description": "Диван угловой Диана – изысканный и интеллигентный. Он является отличным выбором для современного интерьера, выполненного в стиле модерн. Такая мебель станет изюминкой даже самого модного дизайна дома.  ",
-    }
+    },
+    {
+      "title": "Передпокій Соломія VIP-Master",
+      "price": 17500,
+      "image": "https://cdn.taburetka.ua/images/product_images/info_images/299_0.jpg",
+      "description": " Отсутсвует ",
+    },
+    {
+      "title": "Ліжко Барселона Mebigrand",
+      "price": 15067,
+      "image": "https://cdn.taburetka.ua/1e/p3/3m3fodsp38mmr19057z6r4skkrk2c.webp",
+        "description": "Удобная двух местная кровать с функцией шкафа.",
+    },
+    {
+      "title": "Комод 30 Flashnika",
+      "price": 5978,
+      "image": "https://cdn.taburetka.ua/images/product_images/info_images/82e019db11236e45c58f4d807a4416d7.jpg",
+        "description": "Небольшой удобный комод для держания вещей.",
+    },
 ];
 
 // Функція для отримання значення кукі за ім'ям
@@ -155,7 +173,7 @@ function onSearch(event){
 
    printProducts(localProducts);
 }
-search.addEventListener("change",onSearch)
+search.addEventListener("input",onSearch)
 
 
 
