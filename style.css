@@ -142,3 +142,8 @@ align-items: center;
    background-color: 	#FFF7B2;
    font-size: 40px;
 }
+.confirm-button{
+   background-color: #ffe9c5;
+   border-radius: 10px;
+   font-size: 30px;
+}
